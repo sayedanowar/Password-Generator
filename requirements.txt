@@ -1,1 +1,5 @@
 pyperclip==1.8.2
+
+For Windows, no additional modules are needed.
+
+For Linux, you need to install this module xclip or xsel.“sudo apt-get install xclip” or “sudo apt-get install xsel” (Note: xsel does not always seem to work.)
