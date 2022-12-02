@@ -1,6 +1,6 @@
 
 import random
-import pyperclip
+import pyperclip as ppc
 
 container = '''0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~'''*6
 
@@ -12,7 +12,7 @@ while True:
         print(f"\nYour Password Is : {password}")
         copy = input("\nCopy To Clipboard (Y/n) : ").upper()
         if copy == "Y":
-            pyperclip.copy(password)
+            ppc.copy(password)
             print("\nCopied Successfully!")
     
     else:
