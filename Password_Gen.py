@@ -5,7 +5,7 @@ import pyperclip as ppc
 container = '''0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~'''*6
 
 while True:
-    length = int(input("\nPassword Length\n\n=> "))
+    length = int(input("\nPassword Length\n\n>> "))
     
     if length <= 500:
         password = "".join(random.sample(container, length))
